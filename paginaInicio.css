@@ -1,0 +1,136 @@
+body {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+
+}
+
+#wrapper {
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#wrapper div {
+    float: left;
+    font-family: helvetica, arial, sans-serif;
+
+}
+
+#wrapper #div2 {
+    margin-top: 10px;
+    width: 50%;
+    text-align: left;
+    background-color: white;
+}
+
+#wrapper #div2 h1 {
+    margin: 0px;
+    font-size: 30px;
+    color: #2E2E2E;
+}
+
+#wrapper #div2 p {
+    font-size: 20px;
+    color: #2E2E2E;
+    font-weight: bold;
+}
+
+#wrapper #div2 input[type="submit"] {
+    height: 25px;
+    margin-top: 20px;
+    background: none;
+    color: darkturquoise;
+    border: 1px solid darkturquoise;
+    height: 35px;
+    width: 60px;
+    border-radius: 100px;
+    margin-left: 30%;
+}
+
+#wrapper #div2 img {
+    width: 20%;
+}
+
+#wrapper #div2 input[type="button"] {
+    height: 25px;
+    margin-top: 20px;
+    background: darkturquoise;
+    color: white;
+    border: 1px solid darkturquoise;
+    height: 35px;
+    width: 400px;
+    border-radius: 100px;
+
+
+}
+
+#wrapper #div2 #login2 {
+    height: 25px;
+    margin-top: 20px;
+    background: none;
+    color: darkturquoise;
+    border: 1px solid darkturquoise;
+    height: 35px;
+    width: 400px;
+    border-radius: 100px;
+
+}
+
+#wrapper #div1 {
+    margin-top: 30px;
+    width: 50%;
+    text-align: left;
+}
+
+#wrapper #div1 p {
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+    margin: 0px;
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+#wrapper #div1 img {
+    width: 100%;
+}
+
+#footer {
+    width: 100%;
+    clear: both;
+    float: left;
+    min-width: 995px;
+    background-color: white;
+    text-align: left;
+}
+
+#footer2 {
+    width: 980px;
+    margin: 0px auto;
+    padding: 0px;
+    font-size: 12px;
+    color: #848484;
+}
+
+#footer2 a {
+    color: #365899;
+    display: inline-block;
+    margin: 5px;
+    margin-left: 0px;
+    min-width: 80px;
+    text-decoration: none;
+}
+
+#footer2 a:hover {
+    text-decoration: underline;
+}
